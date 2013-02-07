@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>LastClosedTicket</Name>
+    <Version>0.0.2</Version>
+    <Framework>3.2.x</Framework>
+    <Vendor>Daniel Obee @ 33achtzig</Vendor>
+    <URL>http://33achtzig.de/</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</License>
+    <ChangeLog Version="0.0.2" Date="2013-02-07 14:16:00">Code clean-up and layout improvements.</ChangeLog>
+    <ChangeLog Version="0.0.1" Date="2013-02-05 14:43:00">New Package</ChangeLog>
+    <Description Lang="en">Erweitert die Kunden Info um das letzte geschlossene Ticket.</Description>
+    <Description Lang="de">A modification to the Customer Info Widget that displays the ChangeTime and links to the last ticket closed.</Description>
+    <BuildDate>?</BuildDate>
+    <BuildHost>?</BuildHost>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Output/HTML/CustomerUserGenericTicket.pm"></File>
+        <File Permission="644" Location="Kernel/Output/HTML/Standard/AgentCustomerTableView.dtl"></File>
+    </Filelist>
+</otrs_package>
